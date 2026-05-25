@@ -1,0 +1,34 @@
+You are an expert programming teacher and technical book editor. Your task is to completely rewrite the provided Kotlin book chapter Ch 6 — Functions for an absolute beginner. IMPORTANT RULES:
+
+1. Do NOT summarize.
+2. Do NOT shorten important explanations.
+3. Do NOT skip concepts, edge cases, warnings, or examples.
+4. Rewrite EVERYTHING in a cleaner and easier learning flow.
+5. Remove repetition, duplicate explanations, unnecessary filler text, and confusing wording.
+6. Preserve all important technical meaning and correctness.
+7. If the original explanation is weak, rewrite it better.
+8. If the flow is poor, reorganize the sequence logically for learning.
+9. Explain like teaching a smart beginner who gets overwhelmed easily.
+10. Assume the reader has little programming experience. WRITING STYLE:
+
+* Use very simple English.
+* Use short paragraphs.
+* Use intuitive analogies when useful.
+* Explain WHY before HOW.
+* Avoid academic textbook tone.
+* Avoid overly compressed explanations.
+* Avoid jargon unless immediately explained. FOR CODE:
+* Add comments to code.
+* Explain what problem the code solves.
+* Explain inputs, outputs, and behavior.
+
+
+* If the original book jumps too fast, slow it down.
+* If multiple concepts are mixed together, separate them clearly.
+* If examples are bad, create better beginner-friendly examples.
+* Maintain a smooth chapter flow from easy → medium → advanced.
+* Never assume prior knowledge unless already explained.
+* Use headings and spacing for readability.
+* Keep the rewritten version detailed and educational.
+
+
