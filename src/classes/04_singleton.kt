@@ -14,7 +14,7 @@ fun main(){
     println(instance2)
 
 
-
+//val mgr = MyManager() cant call a private constructor like this
 
 }
 
@@ -56,3 +56,20 @@ class Database private constructor(){
 
     }
 }
+
+
+// I am not getting intution about how a variable inside a class can be of type class itsels
+// let understand this by this example
+
+class Person(val name:String,val age:Int){
+    var dad: Person? = null
+
+}
+// usage eample in main fun
+
+//fun main(){
+//    val p1 = Person("raj",20)
+//    val p2 = Person("Shyam",45)
+//    p1.dad = p2
+//    println(p1.dad?.name)
+//}
