@@ -28,19 +28,19 @@ package collections
 
 fun main(){
 
-    val numbers = listOf("onee","owoo","three","four","oie","other","occupation")
+    val numbers = listOf("onee","owoo","three","four","oie","other","occupation","brll")
 
-//    println(numbers.slice(1..3))
-//
-//    println(numbers.slice(0..4 step 2))
-//
-//    println(numbers.take(1))
-//
-//    println(numbers.takeLast(1))
-//
-//    println(numbers.drop(2))
+    println(numbers.slice(1..3))
 
-    // ////"Keep taking elements from the begining of the list as long as the condition is true."
+    println(numbers.slice(0..4 step 2))
+
+    println(numbers.take(1))
+
+    println(numbers.takeLast(1))
+
+    println(numbers.drop(2))
+
+     ////"Keep taking elements from the begining of the list as long as the condition is true."
 
     println(numbers.takeWhile(predicate = {it.startsWith("o")})) // returns only first match
 
@@ -58,4 +58,9 @@ fun main(){
     //chunks
     var numberString = (0..10).toList()
     println(numberString.chunked(3){it.sum()})
+
+    // windowed
+    val numbersString2 = numbers
+
+    println(numbersString2.windowed(3,1,false))// what will happen if we assign partial windows to true
 }
