@@ -2,7 +2,7 @@ package classes
 
 
 fun main(){
-val u1 = UserInfo("ajeet","lekhpal",38)
+//val u1 = UserInfo("ajeet","lekhpal",38)
 
     val u2 by lazy {
         // Type 'Lazy<UserInfo>' has no method 'setValue(Nothing?, KMutableProperty0<*>, UserInfo)',
@@ -11,6 +11,7 @@ val u1 = UserInfo("ajeet","lekhpal",38)
 
         UserInfo("Tarun Gupta","Lekhpal",38)
     }
+    println(u2.name)
 }
 
 class UserInfo(var name:String,var profession:String,var age: Int){

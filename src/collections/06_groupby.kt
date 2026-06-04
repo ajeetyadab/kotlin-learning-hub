@@ -56,6 +56,7 @@ fun main(){
 
 
     //chunks
+    println("chunks")
     var numberString = (0..10).toList()
     println(numberString.chunked(3){it.sum()})
 

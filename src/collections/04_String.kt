@@ -14,7 +14,7 @@ fun main(){
     //
     //That is where StringBuffer and StringBuilder come in.
 
-    val sb = StringBuffer("the list of numbers ")
+    val sb = StringBuffer("the list of numbers")
 
     println(numberString.joinTo(sb))
 
